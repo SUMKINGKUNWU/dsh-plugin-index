@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "title": { "zh": "本地插件索引", "en": "Local Plugin Index" },
-  "description": { "zh": "本机自建 DSH 插件索引", "en": "Self-hosted DSH plugin index" },
+  "title": { "zh": "本机已配置插件镜像", "en": "Local Profile Plugin Mirror" },
+  "description": { "zh": "与桌面 profile 已启用插件保持一致，便于多环境统一。", "en": "Mirrors the desktop profile's enabled plugins for consistent multi-environment setup." },
   "metadata": {
     "categories": {},
     "labels": {},
