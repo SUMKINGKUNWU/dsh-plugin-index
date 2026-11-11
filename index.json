@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "title": { "zh": "本地插件索引", "en": "Local Plugin Index" },
+  "description": { "zh": "本机自建 DSH 插件索引", "en": "Self-hosted DSH plugin index" },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": { "zh": "持久终端", "en": "Persistent terminals" },
+      "description": { "zh": "进程在工具调用之间保持运行，可启动开发服务器或 REPL。", "en": "Keep shell processes alive across tool calls." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["terminal"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-plugin-market-bundle",
+      "title": { "zh": "自定义插件索引", "en": "Custom plugin indexes" },
+      "description": { "zh": "在插件页添加“发现”标签页，从添加的索引中浏览和安装插件。", "en": "Adds a Discover tab to browse plugins from indexes you add." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["plugin", "market"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": { "zh": "会话搜索", "en": "Session search" },
+      "description": { "zh": "搜索同一工作区的历史会话来回答过往工作的问题。", "en": "Search earlier sessions in the same workspace." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["session", "search"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "title": { "zh": "Ralph 循环", "en": "Ralph loops" },
+      "description": { "zh": "用全新 Agent 一轮轮执行目标，直到达成或受阻。", "en": "Run fresh agents round after round toward a goal." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["ralph", "loop"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-inspector-profile",
+      "title": { "zh": "开发者工具", "en": "Developer tools" },
+      "description": { "zh": "会话日志、每轮统计，以及在 Chrome DevTools 调试后端。", "en": "Session log, per-turn statistics, backend debugging." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["inspector", "debug"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-forge-bundle",
+      "title": { "zh": "变更请求与工作树", "en": "Change requests & worktrees" },
+      "description": { "zh": "跟踪 GitHub PR、查看本地改动、用工作树隔离任务。", "en": "GitHub PRs, local changes, isolated worktrees." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["git", "worktree", "pr"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
+      "title": { "zh": "智能体团队", "en": "Agent teams" },
+      "description": { "zh": "把任务分给有名字的队友，在共享任务看板跟踪并汇总结果。", "en": "Split work among named teammates on a shared board." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["agent", "team"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
+      "title": { "zh": "语音输入", "en": "Voice input" },
+      "description": { "zh": "本机 SenseVoice 转写录音，首次使用需安装依赖。", "en": "Local SenseVoice transcription." },
+      "author": "DeepSeek",
+      "metadata": { "keywords": ["voice", "speech"], "labels": [], "sortKeys": {} },
+      "versions": [
+        { "version": "0.2.2-rc.1", "publishTimestamp": 1762000000, "source": { "type": "npm", "registry": "https://registry.npmjs.org" }, "engines": {} }
+      ]
+    }
+  ]
+}
